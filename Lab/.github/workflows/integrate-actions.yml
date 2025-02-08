@@ -1,4 +1,4 @@
-#name: Integrate Actions
+name: Integrate Actions
 on:
     push:
         branches:
