@@ -4,10 +4,10 @@ on:
     branches:
       - master
   pull_request:
-        branches:
-            - master
+    branches:
+      - master
 jobs:
-  test-pull-request:
+  test_pull_request:
     runs-on: ubuntu-latest
     strategy:
       matrix:
